@@ -1,7 +1,7 @@
 {
-    "name": "pie/plugin_template",
-    "description": "This plugin doesn't do anything, but gives you a very minimal starting template.",
-    "type": "wordpress-plugin",
+    "name": "pie/active-plugin-filter",
+    "description": "A must-use plugin to prevent plugins from loading when specific runtime conditions. Fill it up with your own exclusions and conditions.",
+    "type": "wordpress-muplugin",
     "license": "GPL",
     "authors": [
         {
