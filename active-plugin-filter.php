@@ -3,13 +3,13 @@
 /*
 Plugin Name: Active Plugin Filter
 Plugin URI: https://github.com/pie/active-plugin-filter
-Description: A must-use plugin to prevent plugins from loading when specific runtime conditions. Fill it up with your own exclusions and conditions.
+Description: A must-use plugin to prevent plugins from loading when specific runtime conditions are met. Fill it up with your own exclusions and conditions.
 Version: 0.0.1
 Author: The team at PIE
 Author URI: https://pie.co.de
 */
 
-namespace PIE\PluginFilter;
+namespace PIE\ActivePluginFilter;
 
 add_filter('option_active_plugins', __namespace__ . '\filter_active_plugins');
 

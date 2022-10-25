@@ -1,7 +1,7 @@
 {
   "name": "active-plugin-filter",
   "version": "0.0.1",
-  "description": "A must-use plugin to prevent plugins from loading when specific runtime conditions. Fill it up with your own exclusions and conditions.",
+  "description": "A must-use plugin to prevent plugins from loading when specific runtime conditions are met. Fill it up with your own exclusions and conditions.",
   "main": "active-plugin-filter.php",
   "repository": "git@github.com:pie/active-plugin-filter.git",
   "author": "The team at PIE <dev@pie.co.de>",

@@ -1,6 +1,6 @@
 {
     "name": "pie/active-plugin-filter",
-    "description": "A must-use plugin to prevent plugins from loading when specific runtime conditions. Fill it up with your own exclusions and conditions.",
+    "description": "A must-use plugin to prevent plugins from loading when specific runtime conditions are met. Fill it up with your own exclusions and conditions.",
     "type": "wordpress-muplugin",
     "license": "GPL",
     "authors": [
