@@ -78,7 +78,7 @@ function some_condition_is_met()
  */
 function is_admin()
 {
-    return strpos(get_request_uri(), '/wp-admin/');
+    return false !== strpos(get_request_uri(), '/wp-admin/');
 }
 
 // returns the path of the request URI without the query string
